@@ -1,24 +1,37 @@
 body {
-  color: rgb(227, 255, 183);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  animation-delay: 5s;
+  color: rgb(133, 175, 65);
 }
 
 h1 {
+  border-top: 0cqb;
   color: rgb(228, 156, 156);
 }
 
 .quote {
+  max-height: max-content;
+  display: grid;
   color: gray;
 }
 
 .quote.narrator {
+  opacity: 50;
   color: black;
 }
 
 #intro p {
+  box-shadow: 0cqmax;
+  font-size: x-large;
   color: rgb(159, 38, 117);
 }
 
 .super-important-omg {
   font-size: 20px;
   background-color: yellow;
+}
+
+body {
+  background-color: aqua;
 }
